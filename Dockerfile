@@ -12,6 +12,6 @@ WORKDIR dsn_lab04
 
 RUN npm install > /dev/null
 
-EXPOSE 1400
+EXPOSE 14000
 
 CMD ["npm","start"]
