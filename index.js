@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 1400
+const port = 14000
 
 app.get('/', (req, res) => {
     res.sendFile('./static/index.html', {
